@@ -1,0 +1,192 @@
+                        progressBar.Visible = true;
+                        progressBar.Minimum = 0;
+                        progressBar.Maximum = arr.Length;
+                        progressBar.Value = 1;
+                        progressBar.Step = 1;
+
+
+if (cmbjob.Text == "Accounting + Finance")
+            {
+                baseuri = ".craiglist.org/search/acc?query=";
+            }
+            else if (cmbjob.Text == "Admin + Office")
+            {
+                baseuri = ".craiglist.org/search/ofc?query=";
+            }
+            else if (cmbjob.Text == "Arch + Engineering")
+            {
+                baseuri = ".craiglist.org/search/egr?query=";
+            }
+            else if (cmbjob.Text == "Art + Media + Design")
+            {
+                baseuri = ".craiglist.org/search/med?query=";
+            }
+            else if (cmbjob.Text == "Biotech + Science")
+            {
+                baseuri = ".craiglist.org/search/sci?query=";
+            }
+            else if (cmbjob.Text == "Business + Management")
+            {
+                baseuri = ".craiglist.org/search/bus?query=";
+            }
+            else if (cmbjob.Text == "Customer Service")
+            {
+                baseuri = ".craiglist.org/search/csr?query=";
+            }
+            else if (cmbjob.Text == "Education")
+            {
+                baseuri = ".craiglist.org/search/edu?query=";
+            }
+            else if (cmbjob.Text == "Food + Bev + Hosp")
+            {
+                baseuri = ".craiglist.org/search/fbh?query=";
+            }
+            else if (cmbjob.Text == "General Labor")
+            {
+                baseuri = ".craiglist.org/search/lab?query=";
+            }
+            else if (cmbjob.Text == "Government")
+            {
+                baseuri = ".craiglist.org/search/gov?query=";
+            }
+            else if (cmbjob.Text == "Human Resources")
+            {
+                baseuri = ".craiglist.org/search/hum?query=";
+            }
+            else if (cmbjob.Text == "Internet Engineers")
+            {
+                baseuri = ".craiglist.org/search/eng?query=";
+            }
+            else if (cmbjob.Text == "Legal + Paralegal")
+            {
+                baseuri = ".craiglist.org/search/lgl?query=";
+            }
+            else if (cmbjob.Text == "Manufacturing")
+            {
+                baseuri = ".craiglist.org/search/mnu?query=";
+            }
+            else if (cmbjob.Text == "Marketing + Pr + Ad")
+            {
+                baseuri = ".craiglist.org/search/mar?query=";
+            }
+            else if (cmbjob.Text == "Medical + Health")
+            {
+                baseuri = ".craiglist.org/search/hea?query=";
+            }
+            else if (cmbjob.Text == "Nonprofit Sector")
+            {
+                baseuri = ".craiglist.org/search/npo?query=";
+            }
+            else if (cmbjob.Text == "Real Estate")
+            {
+                baseuri = ".craiglist.org/search/rej?query=";
+            }
+            else if (cmbjob.Text == "Retail + Wholesale")
+            {
+                baseuri = ".craiglist.org/search/ret?query=";
+            }
+            else if (cmbjob.Text == "Sales + Biz Dev")
+            {
+                baseuri = ".craiglist.org/search/sls?query=";
+            }
+            else if (cmbjob.Text == "Salon + Spa + Fitness")
+            {
+                baseuri = ".craiglist.org/search/spa?query=";
+            }
+            else if (cmbjob.Text == "Security")
+            {
+                baseuri = ".craiglist.org/search/sec?query=";
+            }
+            else if (cmbjob.Text == "Skilled Trade + Craft")
+            {
+                baseuri = ".craiglist.org/search/trd?query=";
+            }
+            else if (cmbjob.Text == "Software + Ga + Dba")
+            {
+                baseuri = ".craiglist.org/search/sof?query=";
+            }
+            else if (cmbjob.Text == "Systems + Network")
+            {
+                baseuri = ".craiglist.org/search/sad?query=";
+            }
+            else if (cmbjob.Text == "Technical Support")
+            {
+                baseuri = ".craiglist.org/search/tch?query=";
+            }
+            else if (cmbjob.Text == "Transport")
+            {
+                baseuri = ".craiglist.org/search/trp?query=";
+            }
+            else if (cmbjob.Text == "Tv + Film + Video")
+            {
+                baseuri = ".craiglist.org/search/tfr?query=";
+            }
+            else if (cmbjob.Text == "Web + Info Design")
+            {
+                baseuri = ".craiglist.org/search/web?query=";
+            }
+            else if (cmbjob.Text == "Writing + Editing")
+            {
+                baseuri = ".craiglist.org/search/wri?query=";
+            }
+            else if (cmbjob.Text == "[ETC]")
+            {
+                baseuri = ".craiglist.org/search/etc?query=";
+            }
+            else if (cmbjob.Text == "[Part-Time]")
+            {
+                baseuri = ".craiglist.org/search/jjj?is_parttime=1&query=";
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Accounting + Finance
+Admin + Office
+Arch + Engineering
+Art + Media + Design
+Biotech + Science
+Business + Management
+Customer Service
+Education
+Food + Bev + Hosp
+General Labor
+Government
+Human Resources
+Internet Engineers
+Legal + Paralegal
+Manufacturing
+Marketing + Pr + Ad
+Medical + Health
+Nonprofit Sector
+Real Estate
+Retail + Wholesale
+Sales + Biz Dev
+Salon + Spa + Fitness
+Security
+Skilled Trade + Craft
+Software + Ga + Dba
+Systems + Network
+Technical Support
+Transport
+Tv + Film + Video
+Web + Info Design
+Writing + Editing
+[ETC]
+[Part-Time]
